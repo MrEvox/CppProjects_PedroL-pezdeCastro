@@ -1,11 +1,11 @@
-// HelloGitHub.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
+#include<iostream>
+using namespace std;
 
-
-int main()
+void PrintGitHub()
 {
-    return 0;
+	cout << "Hello GitHub";
 }
-
+void main() {
+	PrintGitHub();
+}
